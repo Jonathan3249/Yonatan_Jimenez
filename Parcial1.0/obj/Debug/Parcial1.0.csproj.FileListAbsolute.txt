@@ -1,0 +1,10 @@
+C:\Users\SlowLoris\Desktop\Parcial\Parcial1.0\bin\Debug\Parcial1.0.exe.config
+C:\Users\SlowLoris\Desktop\Parcial\Parcial1.0\bin\Debug\Parcial1.0.exe
+C:\Users\SlowLoris\Desktop\Parcial\Parcial1.0\bin\Debug\Parcial1.0.pdb
+C:\Users\SlowLoris\Desktop\Parcial\Parcial1.0\obj\Debug\Parcial1.0.csprojAssemblyReference.cache
+C:\Users\SlowLoris\Desktop\Parcial\Parcial1.0\obj\Debug\Parcial1._0.Form1.resources
+C:\Users\SlowLoris\Desktop\Parcial\Parcial1.0\obj\Debug\Parcial1._0.Properties.Resources.resources
+C:\Users\SlowLoris\Desktop\Parcial\Parcial1.0\obj\Debug\Parcial1.0.csproj.GenerateResource.cache
+C:\Users\SlowLoris\Desktop\Parcial\Parcial1.0\obj\Debug\Parcial1.0.exe
+C:\Users\SlowLoris\Desktop\Parcial\Parcial1.0\obj\Debug\Parcial1.0.pdb
+C:\Users\SlowLoris\Desktop\Parcial\Parcial1.0\obj\Debug\Parcial1._0.Form2.resources
