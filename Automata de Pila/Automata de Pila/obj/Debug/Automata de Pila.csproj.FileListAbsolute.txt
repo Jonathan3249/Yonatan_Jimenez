@@ -1,0 +1,25 @@
+C:\Users\SlowLoris\Desktop\Desarrollo en C#\Automata de Pila\Automata de Pila\Automata de Pila\bin\Debug\Automata de Pila.exe.config
+C:\Users\SlowLoris\Desktop\Desarrollo en C#\Automata de Pila\Automata de Pila\Automata de Pila\bin\Debug\Automata de Pila.exe
+C:\Users\SlowLoris\Desktop\Desarrollo en C#\Automata de Pila\Automata de Pila\Automata de Pila\bin\Debug\Automata de Pila.pdb
+C:\Users\SlowLoris\Desktop\Desarrollo en C#\Automata de Pila\Automata de Pila\Automata de Pila\bin\Debug\MaterialDesignColors.dll
+C:\Users\SlowLoris\Desktop\Desarrollo en C#\Automata de Pila\Automata de Pila\Automata de Pila\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\SlowLoris\Desktop\Desarrollo en C#\Automata de Pila\Automata de Pila\Automata de Pila\bin\Debug\MaterialSkin.dll
+C:\Users\SlowLoris\Desktop\Desarrollo en C#\Automata de Pila\Automata de Pila\Automata de Pila\bin\Debug\MaterialDesignColors.pdb
+C:\Users\SlowLoris\Desktop\Desarrollo en C#\Automata de Pila\Automata de Pila\Automata de Pila\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\SlowLoris\Desktop\Desarrollo en C#\Automata de Pila\Automata de Pila\Automata de Pila\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\SlowLoris\Desktop\Desarrollo en C#\Automata de Pila\Automata de Pila\Automata de Pila\obj\Debug\Automata de Pila.csprojAssemblyReference.cache
+C:\Users\SlowLoris\Desktop\Desarrollo en C#\Automata de Pila\Automata de Pila\Automata de Pila\obj\Debug\MainWindow.g.cs
+C:\Users\SlowLoris\Desktop\Desarrollo en C#\Automata de Pila\Automata de Pila\Automata de Pila\obj\Debug\App.g.cs
+C:\Users\SlowLoris\Desktop\Desarrollo en C#\Automata de Pila\Automata de Pila\Automata de Pila\obj\Debug\Automata de Pila_MarkupCompile.cache
+C:\Users\SlowLoris\Desktop\Desarrollo en C#\Automata de Pila\Automata de Pila\Automata de Pila\obj\Debug\Automata de Pila_MarkupCompile.lref
+C:\Users\SlowLoris\Desktop\Desarrollo en C#\Automata de Pila\Automata de Pila\Automata de Pila\obj\Debug\App.baml
+C:\Users\SlowLoris\Desktop\Desarrollo en C#\Automata de Pila\Automata de Pila\Automata de Pila\obj\Debug\MainWindow.baml
+C:\Users\SlowLoris\Desktop\Desarrollo en C#\Automata de Pila\Automata de Pila\Automata de Pila\obj\Debug\Automata de Pila.g.resources
+C:\Users\SlowLoris\Desktop\Desarrollo en C#\Automata de Pila\Automata de Pila\Automata de Pila\obj\Debug\Automata_de_Pila.Properties.Resources.resources
+C:\Users\SlowLoris\Desktop\Desarrollo en C#\Automata de Pila\Automata de Pila\Automata de Pila\obj\Debug\Automata de Pila.csproj.GenerateResource.cache
+C:\Users\SlowLoris\Desktop\Desarrollo en C#\Automata de Pila\Automata de Pila\Automata de Pila\obj\Debug\Automata de Pila.csproj.CoreCompileInputs.cache
+C:\Users\SlowLoris\Desktop\Desarrollo en C#\Automata de Pila\Automata de Pila\Automata de Pila\obj\Debug\Automata de Pila.csproj.CopyComplete
+C:\Users\SlowLoris\Desktop\Desarrollo en C#\Automata de Pila\Automata de Pila\Automata de Pila\obj\Debug\Automata de Pila.exe
+C:\Users\SlowLoris\Desktop\Desarrollo en C#\Automata de Pila\Automata de Pila\Automata de Pila\obj\Debug\Automata de Pila.pdb
+C:\Users\SlowLoris\Desktop\Desarrollo en C#\Automata de Pila\Automata de Pila\Automata de Pila\obj\Debug\Generador de Gramatica.g.cs
+C:\Users\SlowLoris\Desktop\Desarrollo en C#\Automata de Pila\Automata de Pila\Automata de Pila\obj\Debug\Generador de Gramatica.baml

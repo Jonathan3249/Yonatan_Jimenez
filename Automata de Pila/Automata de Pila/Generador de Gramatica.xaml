@@ -1,0 +1,68 @@
+﻿<Window x:Class="Automata_de_Pila.Generador_de_Gramatica"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        FontFamily="pack://application:,,,/MaterialDesignThemes.Wpf;component/Resources/Roboto/#Roboto"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Automata_de_Pila"
+        mc:Ignorable="d"
+        Title="Generador_de_Gramatica" Height="580" Width="580" ResizeMode="NoResize" WindowStyle="None" WindowStartupLocation="CenterScreen">
+
+    <Grid MouseMove="mover"  >
+        <Grid.ColumnDefinitions>
+
+        </Grid.ColumnDefinitions>
+        <Label Content="Definición formal:" Height="28" HorizontalAlignment="Left" Margin="25,57,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="M = (Q, Σ, Г, Λ, q0, δ ,λ )" Height="28" HorizontalAlignment="Left" Margin="184,57,0,0" Name="label2" VerticalAlignment="Top" Width="166" />
+        <Label Content="Q ( cantidad estados) :" Height="28" HorizontalAlignment="Left" Margin="25,91,0,0" Name="label3" VerticalAlignment="Top" />
+        <Label Content="Σ (alfabeto de entrada):" Height="28" HorizontalAlignment="Left" Margin="25,125,0,0" Name="label4" VerticalAlignment="Top" />
+        <Label Content="Λ (alfabeto de salida):" Height="28" HorizontalAlignment="Left" Margin="25,164,0,0" Name="label5" VerticalAlignment="Top" />
+        <Label Content="q0 (estado inicial):" Height="28" HorizontalAlignment="Left" Margin="25,203,0,0" Name="label6" VerticalAlignment="Top" />
+        <Label Content="δ (función de transición):" Height="28" HorizontalAlignment="Left" Margin="21,275,0,0" Name="label7" VerticalAlignment="Top" />
+        <Label Content="F (Estados Finales):" Height="28" HorizontalAlignment="Left" Margin="355,265,0,0" Name="label8" VerticalAlignment="Top" />
+        <Label Content="δ(" Height="28" HorizontalAlignment="Left" Margin="21,315,0,0" Name="label9" VerticalAlignment="Top" RenderTransformOrigin="0.478,0.857" Width="21" />
+        <Label Content="λ(" Height="28" HorizontalAlignment="Left" Margin="376,313,0,0" Name="label12" VerticalAlignment="Top" Width="26" />
+        <ListView Height="143" HorizontalAlignment="Left" Margin="42,384,0,0" Name="listView1" VerticalAlignment="Top" Width="169" BorderBrush="#890A0707"/>
+        <ListView Height="143" HorizontalAlignment="Left" Margin="322,384,0,0" Name="listView2" VerticalAlignment="Top" Width="186" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" />
+        <Button Content="+" Height="23" HorizontalAlignment="Left" Margin="322,312,0,0" Name="button1" VerticalAlignment="Top" Width="40" Click="button1_Click" />
+        <Button Content="-" Height="23" HorizontalAlignment="Left" Margin="322,342,0,0" Name="button2" VerticalAlignment="Top" Width="40"  RenderTransformOrigin="1.262,-0.609" Click="button2_Click" />
+        <TextBox Height="30" HorizontalAlignment="Left" Margin="202,125,0,0" x:Name="txtAlfabeto" VerticalAlignment="Top" Width="193" LostFocus="txtAlfabeto_LostFocus"  />
+        <TextBox Height="28" HorizontalAlignment="Left" Margin="199,164,0,0" x:Name="txtPila" VerticalAlignment="Top" Width="193" LostFocus="txtPila_LostFocus"  />
+        <Label Content="Ej: 0,1" Height="28" HorizontalAlignment="Left" Margin="395,135,0,0" Name="label16" VerticalAlignment="Top" IsEnabled="False" RenderTransformOrigin="-0.267,1" />
+        <Label Content="Ej: N,Y" Height="28" HorizontalAlignment="Left" Margin="392,174,0,0" Name="label17" VerticalAlignment="Top" IsEnabled="False" RenderTransformOrigin="1.44,0.393" />
+        <Button Content="Generar definición" Height="24" HorizontalAlignment="Left" Margin="368,532,0,0" Name="button3" VerticalAlignment="Top" Width="158" Click="button3_Click"  />
+        <Button Content="+" Height="23" HorizontalAlignment="Left" Margin="486,312,0,0" Name="button5" VerticalAlignment="Top" Width="40" Click="button5_Click"  />
+        <Button Content="-" Height="23" HorizontalAlignment="Left" Margin="486,342,0,0" Name="button6" VerticalAlignment="Top" Width="40" Click="button6_Click"  />
+        <Label Content=") =" Height="28" HorizontalAlignment="Left" Margin="177,315,0,0" Name="label11" VerticalAlignment="Top" Width="25" />
+        <ComboBox Height="28" Margin="202,203,255,0" x:Name="estaInicial" VerticalAlignment="Top" />
+        <ComboBox Height="28" HorizontalAlignment="Left" Margin="42,315,0,0" x:Name="primEstado" VerticalAlignment="Top" Width="34" />
+        <ComboBox Height="28" HorizontalAlignment="Left" Margin="81,315,0,0" x:Name="segundoGrama" VerticalAlignment="Top" Width="38" />
+        <Label Content=") =" Height="28" HorizontalAlignment="Left" Margin="451,312,0,0" Name="label14" VerticalAlignment="Top" Width="33" />
+        <ComboBox Height="28" HorizontalAlignment="Left" Margin="402,313,0,0" x:Name="estFinales" VerticalAlignment="Top" Width="44" />
+        <ComboBox Height="28" HorizontalAlignment="Left" Margin="216,314,0,0" x:Name="cuartaTransicion" VerticalAlignment="Top" Width="39" />
+        <ComboBox Height="28" HorizontalAlignment="Right" Margin="0,90,261,0" x:Name="cantEstados" VerticalAlignment="Top" Width="120" ItemsSource="{Binding}" SelectionChanged="cantEstados_SelectionChanged" ></ComboBox>
+
+        <materialDesign:ColorZone Mode="PrimaryDark" Background="DeepSkyBlue" Margin="0,0,0,0" Grid.ColumnSpan="4">
+            <StackPanel HorizontalAlignment="Right">
+                <Button Width="30" Height="25" materialDesign:ShadowAssist.ShadowDepth="Depth3" Padding="0"  BorderBrush="#FFB9AFCB" Background="DeepSkyBlue" Click="cerrar">
+                    <materialDesign:PackIcon Kind="WindowClose" Background="DeepSkyBlue"/>
+                </Button>
+            </StackPanel>
+
+        </materialDesign:ColorZone>
+        <TextBlock HorizontalAlignment="Left" Margin="23,6,0,0" TextWrapping="Wrap" Text="Autómata de Pila" VerticalAlignment="Top" Width="214" FontSize="16"/>
+        <Label Content="Z0 (estado inicial de pila):" Height="28" HorizontalAlignment="Left" Margin="25,236,0,0" x:Name="label6_Copy" VerticalAlignment="Top" />
+        <ComboBox Height="28" Margin="202,238,255,0" x:Name="inicialPila" VerticalAlignment="Top" />
+        <ComboBox Height="28" HorizontalAlignment="Left" Margin="259,314,0,0" x:Name="quintaGrama" VerticalAlignment="Top" Width="39" />
+        <Label Content=") " Height="28" HorizontalAlignment="Left" Margin="303,312,0,0" x:Name="label11_Copy" VerticalAlignment="Top" RenderTransformOrigin="1.667,0.5" Width="16" />
+        <Label Content="(" Height="28" HorizontalAlignment="Left" Margin="202,313,0,0" x:Name="label9_Copy" VerticalAlignment="Top" RenderTransformOrigin="0.478,0.857" Width="14" />
+        <ComboBox Height="28" HorizontalAlignment="Left" Margin="138,315,0,0" x:Name="tercerGrama" VerticalAlignment="Top" Width="39" />
+
+
+    </Grid>
+</Window>
